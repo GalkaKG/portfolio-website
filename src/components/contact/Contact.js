@@ -87,14 +87,14 @@ const Contact = () => {
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
               Email:
             </span>
-            noor.jsdivs@gmail.com
+            galina_georgieva_net@abv.bg
           </p>
-          <p className="flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
+          {/* <p className="flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
               Freelance:
             </span>
             Abailable
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="w-full mt-10">

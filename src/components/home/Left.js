@@ -5,12 +5,12 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { SiYoutubemusic } from "react-icons/si";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
-import CV from "../../assets/Noor_Mohammad_resume.pdf";
+import CV from "../../assets/Galina's CV.pdf";
 import { bannerImg } from "../../assets/index";
 
 const Left = () => {
   const [text] = useTypewriter({
-    words: ["Web Developer", "Full Stack Developer", "UI Designer"],
+    words: ["Web Developer", "Software Developer", "Data Scientist"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 20,
@@ -24,11 +24,14 @@ const Left = () => {
           src={bannerImg}
           loading="priority"
           alt="bannerImage"
+          style={{
+            'object-fit': 'contain'
+          }}
         />
       </div>
       <div className="w-full h-2/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl">
         <div className="flex flex-col items-center gap-2 py-10">
-          <h1 className="text-textColor text-4xl font-semibold">John Doe</h1>
+          <h1 className="text-textColor text-4xl font-semibold">Galina G</h1>
           <p className="text-base text-designColor tracking-wide">
             {text}
             <Cursor cursorBlinking="false" cursorStyle="|" />
