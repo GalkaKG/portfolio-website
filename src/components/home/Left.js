@@ -25,6 +25,7 @@ const Left = () => {
           loading="priority"
           alt="bannerImage"
           style={{
+            // 'height': '95%',
             'object-fit': 'contain'
           }}
         />
